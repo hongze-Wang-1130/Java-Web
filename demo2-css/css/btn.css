@@ -1,0 +1,10 @@
+input{
+            width: 60px;
+            height: 40px;
+            background-color: greenyellow;
+            color: white;
+            font-size: 15px;
+            font-family: 'Times New Roman';
+            border: 2px solid green;
+            border-radius:5px
+}
