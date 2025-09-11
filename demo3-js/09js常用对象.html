@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /* 
+        js                     java
+        数据类型变量            数据类型变量
+        运算符                  运算符
+        控制流程                控制流程
+        函数                    方法
+        对象                    面向对象
+        常见对象                java的常用类
+
+        1数组
+            1)数组的创建方式
+            2)数组的API
+        
+        */
+        var fruits = ["apple",'orange',"banana"];
+        var fruits2 = ["荔枝",'榴莲','桃子',"榴莲",'李子'];
+        var fruitsAll = fruits.concat(fruits2);
+        console.log(fruits);
+        console.log(fruits2);
+        console.log(fruitsAll);
+        //移除并返回最后一个元素
+        var res = fruitsAll.pop();
+        console.log(res);
+        console.log(fruitsAll);
+        //从尾端添加元素并返回长度
+        var len = fruitsAll.push("葡萄");
+        console.log(len);
+        console.log(fruitsAll);
+        //查找榴莲
+        var index1 = fruitsAll.indexOf('榴莲');
+        var index2 = fruitsAll.lastIndexOf('榴莲');
+        console.log(index1);
+        console.log(index2);
+
+        //反转
+        fruitsAll.reverse();
+        console.log(fruitsAll);
+
+        //转换为字符串
+        console.log(fruitsAll.join("-"))
+
+        //截取数组
+        console.log(fruitsAll.slice(2,6))
+
+        //删除或者增加数据
+        console.log(fruitsAll);
+        fruitsAll.splice(2,2,'el1','el2'
+        );
+        console.log(fruitsAll);
+
+
+       //数组的创建
+        // var arr = new Array();
+        // var arr = new Array(5);
+        // var arr = new Array(1,2,3);
+    //     var arr = ["list",11,false]
+    //    console.log(arr);
+    //    console.log(arr.length);
+    //    //向数组中添加数据
+    //    arr[0]="zhangsan";
+    //    arr[1]=10;
+    //    arr[9]=true;
+    //    arr.length=20;
+    //    console.log(arr);
+    //    console.log(arr.length);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
